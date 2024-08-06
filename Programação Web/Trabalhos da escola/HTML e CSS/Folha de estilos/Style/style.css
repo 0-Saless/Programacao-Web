@@ -1,0 +1,14 @@
+body { 
+    background-color: #FFCC66;
+    background-image: url("Imagens/butterfly.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: 900px;
+
+}   
+
+           h1 { color: #990000; 
+                   background-color: #FC9804; 
+} 
+

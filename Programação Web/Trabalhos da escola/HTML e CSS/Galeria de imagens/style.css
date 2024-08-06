@@ -1,0 +1,151 @@
+header {
+   background-color: antiquewhite;
+   font-family:  "Buda", serif;
+   
+   border: 2px solid rgb(255, 255, 255);
+   color: #333;
+   -webkit-text-stroke: 1px #503d28;
+   text-shadow: 0px 4px 4px #000000;
+   padding: 1rem;
+}
+.buda-light {
+    font-family: "Buda", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-style:initial;
+  }
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://images.pexels.com/photos/168442/pexels-photo-168442.jpeg?cs=srgb&dl=pexels-fwstudio-33348-168442.jpg&fm=jpg&_gl=1*1yqgayp*_ga*Mzg5OTY0MzgyLjE2ODYxNDQ0MDU.*_ga_8JE65Q40S6*MTcxODk3NDU4OC42LjEuMTcxODk3NDc1OC4wLjAuMA..);
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.conteiner {
+    border: 5px double white;
+    margin: auto;
+    transition: width 2s, height 2s;
+    text-align: center;
+    width: 900px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+div {
+   background-color: #8B4513;
+
+}
+
+div.conteiner img {
+    width: 200px;
+    height: 300px;
+    width: 21%;
+    margin: 15px;
+    display: flexbox;
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+
+div.conteiner img:hover {
+    border: 2px double rgb(249, 249, 249);
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+    filter: grayscale(0);
+    transition: filter 2s ease ;
+  
+   
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family:"Buda", serif; ;
+}
+
+
+
+
+  
+
+.navbar {
+  background-color: #8B4513; 
+  width: 60px;
+  height: 100vh; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  overflow-x: hidden; 
+  transition: width 0.3s ease; 
+}
+
+.navbar:hover {
+  width: 250px; 
+}
+
+.navbar-list {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin: 20px 0; 
+  text-align: center;}
+  
+
+.navbar-item a {
+  text-decoration: none;
+  color: white; font-weight: bold;
+  display: block; 
+  padding: 15px 10px; 
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  
+}
+
+.navbar:hover .navbar-item a {
+  opacity: 1; 
+}
+
+.navbar-item a:hover {
+  background-color: #5A2D0C;
+}
+
+.main-content {
+  margin-left: 60px; 
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+}
+
+.card-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
